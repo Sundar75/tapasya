@@ -1,0 +1,3 @@
+export function TemplePattern() {
+  return <svg aria-hidden="true" className="pattern-layer fixed inset-0 z-0 h-full w-full" preserveAspectRatio="xMidYMid slice"><defs><pattern id="kolam" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M36 6 66 36 36 66 6 36Z M36 18 54 36 36 54 18 36Z" fill="none" stroke="#753127" strokeWidth=".8"/><circle cx="36" cy="36" r="2" fill="#753127"/><circle cx="6" cy="6" r="1.5" fill="#753127"/><circle cx="66" cy="6" r="1.5" fill="#753127"/><circle cx="6" cy="66" r="1.5" fill="#753127"/><circle cx="66" cy="66" r="1.5" fill="#753127"/></pattern></defs><rect width="100%" height="100%" fill="url(#kolam)"/></svg>;
+}
